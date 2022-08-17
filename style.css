@@ -1,0 +1,30 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 5px;
+}
+.btns{
+    background-color: rgb(13, 186, 255);
+    color: aliceblue;
+    width: 10%;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: rgb(106, 213, 255);
+}
+#btn1{
+    background-color: red;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: rgb(255, 116, 116);
+}
+#root{
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: larger;
+}
